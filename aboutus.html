@@ -17,7 +17,10 @@
         
     }
     ul{
-        
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100px; 
         
         
         background-color: rgb(0, 0, 0);
@@ -44,13 +47,16 @@
     }
     div.banner{
         background: linear-gradient(rgba(0, 0, 0, 0.964), rgba(0, 0, 0, 0.622)),url("bg.jpg")no-repeat center center fixed;
-        height: 100px;
+        height: 150px;
         color: aliceblue;
         padding: 30px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         
     }
-    div.abtus{
+    .banner h1{
+        margin-top: 80px;
+    }
+    /* div.abtus{
         display: flex;
         text-align: justify;
         padding-left: 30px;
@@ -63,7 +69,33 @@
         font-size: large;
         line-height: 25px;
         color: brown;
-    }
+    } */
+
+    .main{
+            display: flex;
+            align-items: center;
+            
+            margin: 10px;
+
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .image{
+            margin: 10px;
+            margin-right: 25px;
+            
+            
+           
+        }
+        .content{
+            text-indent: 50px;
+        font-size: large;
+        line-height: 25px;
+        text-align: justify;
+        color: blueviolet;
+        }
+
     .footer{
             background-color: skyblue;
             background-color: rgb(254, 229, 197);
@@ -92,7 +124,17 @@
         
     </div>
 
-    <div class="abtus">
+    <div class="main">
+        <div class="image">
+            <img src="car11.jpg" alt="" width="1000px" height="300px" style="box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
+        </div>
+
+        <div class="content">
+            <p>THE BIG HOTEL is an ideal starting point for many destinations in the Rhine-Main area. Our 3-star hotel is located in the center of Dreieich Sprendlingen, with 75 non-smoking rooms, air-conditioned conference rooms and a beautiful lounge with a separate smoking area. The hotel has been lovingly renovated in recent years. An ideal transport connection to Frankfurt Airport (11 km) and to Frankfurt (7 km), Frankfurt Messe (17 km) and to the commercial areas of the surrounding cities of Neu-Isenburg, Langen and Egelsbach enable a quick journey to your business or trade fair appointment. Numerous restaurants, shops and cafes are within walking distance of our hotel. The Hotel L'Escala Dreieich ensures a successful stay at the gates of the trade fair city of Frankfurt am Main.</p>
+        </div>
+    </div>
+
+    <!-- <div class="abtus">
         
             <div class="col">
                 <p><span style="font-weight: bold;">THE BIG HOTEL</span> is an ideal starting point for many destinations in the Rhine-Main area. Our 3-star hotel is located in the center of Dreieich Sprendlingen, with 75 non-smoking rooms, air-conditioned conference rooms and a beautiful lounge with a separate smoking area. The hotel has been lovingly renovated in recent years. An ideal transport connection to Frankfurt Airport (11 km) and to Frankfurt (7 km), Frankfurt Messe (17 km) and to the commercial areas of the surrounding cities of Neu-Isenburg, Langen and Egelsbach enable a quick journey to your business or trade fair appointment. Numerous restaurants, shops and cafes are within walking distance of our hotel. The Hotel L'Escala Dreieich ensures a successful stay at the gates of the trade fair city of Frankfurt am Main.</p>
@@ -102,10 +144,10 @@
             <div class="col">
                 <p><span style="font-weight: bold;">THE BIG HOTEL</span> is an ideal starting point for many destinations in the Rhine-Main area. Our 3-star hotel is located in the center of Dreieich Sprendlingen, with 75 non-smoking rooms, air-conditioned conference rooms and a beautiful lounge with a separate smoking area. The hotel has been lovingly renovated in recent years. An ideal transport connection to Frankfurt Airport (11 km) and to Frankfurt (7 km), Frankfurt Messe (17 km) and to the commercial areas of the surrounding cities of Neu-Isenburg, Langen and Egelsbach enable a quick journey to your business or trade fair appointment. Numerous restaurants, shops and cafes are within walking distance of our hotel. The Hotel L'Escala Dreieich ensures a successful stay at the gates of the trade fair city of Frankfurt am Main.</p>
 
-                <!-- <img src="hotel.jpg" alt="img" width="250px" height="250px"> -->
+                 <img src="hotel.jpg" alt="img" width="250px" height="250px"> 
             </div>
         
-    </div>
+    </div> -->
     <div class="footer">
         <div class="container">
             <div class="col-1">
